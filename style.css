@@ -38,3 +38,9 @@ body {
 .content {
     padding: 20px;                 /* Normaler Abstand für deinen Text */
 }
+
+@media (max-width: 768px) {
+    .site-header {
+        justify-content: center; /* Schiebt das Logo auf dem Handy in die Mitte */
+        padding-top: 15px;       /* Optional: Etwas weniger Abstand nach oben auf dem Handy */
+    }
