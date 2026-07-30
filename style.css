@@ -31,7 +31,7 @@ body {
     display: block;
     
     /* Optional: Ein feiner weißer Rahmen, damit es sich vom Hintergrund abhebt */
-    /*border: 1px solid #ffffff;  */   
+    border: 2px solid #000000;     
 }
 
 /* Der Hauptinhalt braucht keinen riesigen Abstand mehr */
