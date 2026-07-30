@@ -29,7 +29,7 @@ body {
     display: block;
     
     /* Optional: Ein feiner weißer Rahmen, damit es sich vom Hintergrund abhebt */
-    border: 2px solid #ffffff;     
+    border: 1px solid #ffffff;     
 }
 
 /* Der Hauptinhalt braucht keinen riesigen Abstand mehr */
