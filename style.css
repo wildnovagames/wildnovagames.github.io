@@ -20,8 +20,8 @@ body {
     top: 20px;
     left: 20px;
 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 
     border-radius: 50%;
     object-fit: cover;
@@ -34,7 +34,7 @@ body {
 .content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 140px 20px 40px;
+    padding: 200px 20px 40px;
     box-sizing: border-box;
 }
 
@@ -63,7 +63,7 @@ a:hover {
 }
 
 /* ===== Smartphones ===== */
-
+/*
 @media (max-width: 768px) {
 
     .logo {
@@ -81,4 +81,4 @@ a:hover {
         box-sizing: border-box;
         text-align: left;
     }
-}
+}*/
