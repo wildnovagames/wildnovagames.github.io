@@ -18,19 +18,14 @@ body {
 
 .logo {
     position: fixed;
-
     top: 20px;
     left: 20px;
 
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 300px;
 
-    border-radius: 50%;
-    object-fit: cover;
-
-    z-index: 1000;
+    z-index: 9999;
 }
-
 
 /* ===== Seiteninhalt ===== */
 
@@ -80,24 +75,17 @@ a:hover {
 
     .logo {
         position: fixed;
-
         top: 10px;
         left: 10px;
 
-        width: 70px;
-        height: 70px;
+        width: 140px;
+        height: 140px;
+
+        z-index: 9999;
     }
 
-
     .content {
-
-        width: 100%;
-
-        margin: 0;
-
-        padding: 110px 20px 30px;
-
-        text-align: left;
+        padding-top: 170px;
     }
 
 }
