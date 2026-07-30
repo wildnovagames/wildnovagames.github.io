@@ -1,9 +1,8 @@
+/* ===== Allgemein ===== */
+
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
 
     background-image: url("Homepage_Background.webp");
     background-size: cover;
@@ -14,46 +13,53 @@ body {
     color: white;
 }
 
-/* Links ebenfalls weiß */
+/* ===== Logo ===== */
+
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    width: 120px;
+    height: 120px;
+
+    border-radius: 100%;
+    object-fit: cover;
+
+    z-index: 1000;
+}
+
+/* ===== Seiteninhalt ===== */
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* ===== Links ===== */
+
 a {
     color: white;
 }
 
-/* Überschrift mit Logo */
-.header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 40px;
-}
-
-/* Logo */
-.logo {
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    object-fit: cover;
-}
-
-/* Footer */
 .footer {
     margin-top: 50px;
     font-size: 0.9em;
 }
 
-/* Handyansicht */
+/* ===== Handy ===== */
+
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
 
     .logo {
-        width: 120px;
-        height: 120px;
+        position: static;
+        display: block;
+        margin: 20px auto;
     }
 
-    body {
-        margin: 20px auto;
+    .content {
+        padding: 15px;
+        text-align: center;
     }
 }
