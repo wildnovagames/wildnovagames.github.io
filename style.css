@@ -22,8 +22,10 @@ body {
 
 /* Das Logo als perfekten Kreis darstellen */
 .logo {
-    width: 200px;                   /* Feste Breite für das Logo */
-    height: 200px;                  /* Identische Höhe (wichtig für einen perfekten Kreis!) */
+    width: 200px !important;
+   height: 200px !important;
+   max-width: none !important;
+   max-height: none !important;                  /* Identische Höhe (wichtig für einen perfekten Kreis!) */
     border-radius: 50%;            /* Macht die Ecken rund (50% = Kreis) */
     object-fit: cover;             /* Verhindert, dass das Bild verzerrt wird */
     display: block;
