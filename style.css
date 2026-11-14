@@ -327,19 +327,12 @@ body {
    SPIEL-HEADER / APP ICON
    ======================================== */
 
-.game-header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-
 .game-header-icon {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 
     object-fit: cover;
-
-    border-radius: 25px;
+    border-radius: 16px;
 
     display: block;
 
@@ -349,12 +342,12 @@ body {
 /* SMARTPHONE */
 
 @media (max-width: 768px) {
-
     .game-header-icon {
-        width: 120px;
-        height: 120px;
-        border-radius: 20px;
+        width: 75px;
+        height: 75px;
+        border-radius: 14px;
     }
+}
 
 }
 
